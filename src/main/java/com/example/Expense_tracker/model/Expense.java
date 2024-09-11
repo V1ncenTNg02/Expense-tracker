@@ -28,6 +28,8 @@ public class Expense {
     this.category = category;
   };
 
+  public Expense(){}
+
   public Long getId() {
     return id;
   }
